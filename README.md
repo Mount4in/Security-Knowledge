@@ -1,5 +1,32 @@
 # Security Knowledge
 
+
+
+- **论文推荐**
+  - **移动安全**
+
+- **应急响应**
+- **云安全**
+- **Tips**
+- **工具**
+  - **代理**
+  - **代码审计工具**
+  - **漏洞利用工具**
+- **攻防技术**
+- **工控安全**
+- **漏洞挖掘**
+- **实战测试**
+  - **外网突破**
+  - **内网渗透**
+  - **外网加内网**
+  - **靶场/CTF WP**
+
+- **漏洞分析**
+- **恶意木马分析**
+- **总结展望**
+
+
+
 ### 论文推荐
 
 - [What Your Firmware Tells You Is Not How You Should Emulate It: A Specification-Guided Approach for Firmware Emulation](https://mp.weixin.qq.com/s/gWnvQZlgrkQklDrNI2EQwg)
@@ -138,11 +165,15 @@
 
   > fofa、quake、zoomeye、shodan、huneter、chaos
 
-#### 漏洞利用框架
+#### 漏洞利用工具
 
 - [Ysomap：一款适配于各类实际复杂环境的Java反序列化利用框架](https://github.com/wh1t3p1g/ysomap)
 
   > wh1t3p1g(NeSE)
+  
+- [【技术原创】pypsrp在Exchange Powershell下的优化](https://mp.weixin.qq.com/s/CGp2Tdpr6WXFzlnuZbOo3g)
+
+  > 3gstudent [嘶吼专业版](javascript:void(0);)
 
 ### 攻防技术
 
@@ -158,6 +189,12 @@
 
 
 
+- [实战|记录一次通过不断FUZZ从而获取万元赏金](https://mp.weixin.qq.com/s/g8oPRHCccUg-BVt_rZs3jw)
+
+  > 网络安全之旅
+
+  > H5站点 Fuzz测试
+
 - [最全的内网凭据密码收集方法和技巧总结](https://mp.weixin.qq.com/s?__biz=MzI5MDU1NDk2MA==&mid=2247510123&idx=1&sn=84622c193dad6bcf2432af54beeba32e&chksm=ec1cfd54db6b74423eccc0f2af82485020e25704312040780a23b275d8943159e030a63ca867&mpshare=1&scene=1&srcid=1231Hze1SsiPCIWEsEPmx47k&sharer_sharetime=1672453566377&sharer_shareid=a93dd3cba873ae5faa92bd564afa6091&key=ae1404de8eb54f3241bc9cc3ba589ecce37ad3a0753be749313a7e540e561ef2f70826b109dc713e2d80a0028b873bcf2000c96c63aca7f2bb97cd0542939ff47bc6dc02ff1f6d41cd7da439c0cf1e5ce2a3ba261372deaf3c01abdddbef64033c4a47a2345a3a2831ca22b3fec090d5c111882d7054e3f1ddb0318c60cdd66b&ascene=1&uin=Mzk0MDc0MjYw&devicetype=Windows+11+x64&version=6308011a&lang=zh_CN&exportkey=n_ChQIAhIQWosHuqluGW1uaKHcG4A5mBLqAQIE97dBBAEAAAAAAI1xKfIM2bAAAAAOpnltbLcz9gKNyK89dVj0wlUzPmH1c0Q6W6tFZa2wpW5EZHuHdmiFsNHT%2B1YuiCyd27OcGz0A7EiO53t1LAAl5z35JPs2dYSoIJaMz9Gcgb7%2FmzS842IcmpnJ34Wa81x4DhlYMGIDv5bOBbycM%2F1Qz1o7uQ%2B5wQAqEXW%2BvwViEc0b85YkbaQTQVKHl%2BbxmvJLR983tfvKRO8hKEj6ih4DHg075i8xXO6GflzECKxg0KUox%2BW%2Be74HLwalirKrFlp0OtiIKPXjopNQKGglCRgs9GzAng%3D%3D&acctmode=0&pass_ticket=jgK8czkMhwiEq%2Fa4kiLJPo15xK6w%2F6pq8aA8YkNZUxWbQyRh7%2FszmkX%2BAbuh6KLrrHxocQmCMzuKN%2B%2F%2FkFJgqA%3D%3D&wx_header=1&fontgear=2)
 
   > 深蓝天威战队
@@ -168,7 +205,11 @@
 
   > Adepts of 0xCC
 
+- [实战|记一次从供应链的未授权访问到重大成果](https://mp.weixin.qq.com/s/IWJNCD9pli_JXY_6WaKgzw)
 
+  > 弱口令安全实验室
+
+  > js接口未授权逐步获取大量敏感信息
 
 ### 工控安全
 
