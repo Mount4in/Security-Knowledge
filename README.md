@@ -4,9 +4,9 @@
 
 - **论文推荐**
   - **移动安全**
-
-- **应急响应**
 - **云安全**
+- **AI安全**
+- **应急响应**
 - **Tips**
 - **工具**
   - **代理**
@@ -20,7 +20,6 @@
   - **内网渗透**
   - **外网加内网**
   - **靶场/CTF WP**
-
 - **漏洞分析**
 - **恶意木马分析**
 - **总结展望**
@@ -83,25 +82,44 @@
   >
   > 安全学术圈
 
-  #### 移动安全（Mobile security）
+
+#### 神经网络模型后门
+
+- [FreeEagle: Detecting Complex Neural Trojans in Data-Free Cases](https://mp.weixin.qq.com/s/z29F7L-9HskdCezi-ChLAQ)
+
+  > Chong@NESALab 安全研究GoSSIP
+  >
+  > 浙大神经网络后门检测
+
+#### API安全
+
+- [NAUTILUS: Automated RESTful API Vulnerability Detection](https://mp.weixin.qq.com/s/g_Y-fbxDiIkYCGK92o7urQ)
+
+  > **新加坡南洋理工大学** **奇安信代码安全实验室**
+  >
+  > https://mp.weixin.qq.com/s/AywZm5A2v7ivxTumZnn7uQ
+
+#### 协议
+
+- [QUICforge: Client-side Request Forgery in QUlC](https://mp.weixin.qq.com/s/xW23ntLHjxLJprrwmrAGjw)
+
+  > 柏林工业大学分布式基础设施安全实验室的 Yuri Gbur 和 Florian Tschorsch 
+  >
+  > 针对 QUIC（Quick UDP Internet Connection）协议发起客户端请求伪造攻击
+
+#### 移动安全（Mobile security）
 
 - [Post-GDPR Threat Hunting on Android Phones: Dissecting OS-level Safeguards of User-unresettable Identifiers](https://mp.weixin.qq.com/s/2W6aMvoIQk2cru_5Lzbxdg)
 
   > NDSS 2023 澳大利亚昆士兰大学TrustLab 孟华松
 
   > 设计了一款名叫U2I2的分析工具，并对市面上最新的多款Android设备进行分析，最终发现即便用户的手机安装了最新的Android版本（10.0或更高），一些UUI（用户不可重置的识别信息——User-unresettable Identifiers）仍然可以被第三方App轻易获取。作者们在13款不同型号的Android设备上共发现了65处**系统级别（OS-level）**的UUI保护漏洞
+  
+- [Lalaine: Measuring and Characterizing Non-Compliance of Apple Privacy Labels](https://mp.weixin.qq.com/s/XeULA0DNB8l17K45xBdE6w)
 
-### 应急响应
-
-- [TeamTNT挖矿木马应急溯源分析](https://mp.weixin.qq.com/s/A1X3Kf_TNFsSVTLCm58KMQ)
-
-  > Zgao
-
-  > redis未授权访问漏洞挖矿应急
-
-- [最实用的应急响应笔记思路小结](http://www.kxsy.work/2021/10/13/zui-shi-yong-de-ying-ji-xiang-ying-bi-ji-si-lu-xiao-jie/)
-
-  > 告白
+  > Yue@IU 安全研究GoSSIP
+  >
+  > 测量和评估苹果APP隐私标签的不合规性
 
 ### 云安全
 
@@ -119,6 +137,28 @@
 
 - [Azure利用CBA证书身份验证实现无密码持久化和特权提升](https://posts.specterops.io/passwordless-persistence-and-privilege-escalation-in-azure-98a01310be3f)
 
+### AI安全
+
+- [ChatGPT：和黑客知识库聊天](https://mp.weixin.qq.com/s/dteH4oP24qGY-4l3xSl7Vg)
+
+  > w8ay [Hacking就是好玩](javascript:void(0);)
+
+  > ChatGPT构建安全知识库
+
+### 应急响应
+
+- [TeamTNT挖矿木马应急溯源分析](https://mp.weixin.qq.com/s/A1X3Kf_TNFsSVTLCm58KMQ)
+
+  > Zgao
+
+  > redis未授权访问漏洞挖矿应急
+
+- [最实用的应急响应笔记思路小结](http://www.kxsy.work/2021/10/13/zui-shi-yong-de-ying-ji-xiang-ying-bi-ji-si-lu-xiao-jie/)
+
+  > 告白
+
+
+
 ### Tips
 
 - [GIT与GFW](https://mp.weixin.qq.com/s/3QUpvrzxb_aMv91Rq-5WOw)
@@ -126,10 +166,24 @@
   > 沈沉舟
 
   > 解决git连接github网络不稳定问题。
+  
+- [WebRTC泄露源IP的防范措施](https://mp.weixin.qq.com/s/A5dd7WXojGBzsz52_iLtJQ)
+
+  > 沈沉舟
+  >
+  > WebRTC Leak Shield 插件装起来  
+  >
+  > 试下这个网站[匿名代理追踪真实ip (hackjie.com)](https://www.hackjie.com/tracking')
 
 ### 工具
 
 #### 代理
+
+- [隐秘的多级代理内网穿透工具](https://mp.weixin.qq.com/s/qEGhsIbudF5nWWfW_utGfA)
+
+  > rakshasa
+
+  > 代理工具 有证书
 
 - [无环境依赖开箱即用的代理IP池](https://github.com/pingc0y/go_proxy_pool)
 
@@ -175,7 +229,41 @@
 
   > 3gstudent [嘶吼专业版](javascript:void(0);)
 
+#### 工具高阶使用
+
+- [如何更加专业地使用 Burp Suite！](https://mp.weixin.qq.com/s/9jESl-gpP-MQJV5GDcXgfQ)
+
+  >  骨哥说事
+  >
+  > 
+
 ### 攻防技术
+
+#### 内网凭据
+
+- [Dumping Lsass Process Memory In Different Ways](https://tttang.com/archive/1810/)
+
+  > [seventeen](https://tttang.com/user/seventeen)
+  >
+  > Dump lsass进程内存的多种方式
+
+#### 认证绕过
+
+- [绕过认证的五种方式](https://mp.weixin.qq.com/s/U-AECKkMVJHe6WIOO96B5Q)
+
+  > 小白 Tide安全团队
+  >
+  > 绕过认证的五种方式
+  >
+  > 令牌刷新端的错误配置
+  >
+  > 错误的sso配置
+  >
+  > CMS个例的访问问题
+  >
+  > JWT Token的错误解析
+  >
+  > 暴力修改Authentication
 
 - [2023钓鱼攻击思路整理](https://mp.weixin.qq.com/s/mnuus-XBBK5gspAAIBeIPg)
 
@@ -187,7 +275,7 @@
 
 - [红队攻防之PC端微信个人信息与聊天记录取证](https://mp.weixin.qq.com/s/4DbXOS5jDjJzM2PN0Mp2JA)
 
-
+  > AdminTest0 NearSec
 
 - [实战|记录一次通过不断FUZZ从而获取万元赏金](https://mp.weixin.qq.com/s/g8oPRHCccUg-BVt_rZs3jw)
 
@@ -210,6 +298,22 @@
   > 弱口令安全实验室
 
   > js接口未授权逐步获取大量敏感信息
+  
+- [SRC漏洞挖掘之JS文件中的秘密](https://mp.weixin.qq.com/s/rjleE4at_QUHOWjxwwD5IA)
+
+  > 听风安全
+
+  > 工具：JSFinder
+  >
+  > LinkFinder
+  >
+  > burp插件https:*//github.com/ScriptKid-Beta/Unexpected_information*
+  >
+  > 通过正则匹配放到Burp的Filter中去搜索
+  >
+  > ```
+  > 例如匹配accesstoken:[Aa](ccess|CCESS)_?[Kk](ey|EY)|[Aa](ccess|CCESS)_?[sS](ecret|ECRET)|[Aa](ccess|CCESS)_?(id|ID|Id)
+  > ```
 
 ### 工控安全
 
@@ -226,6 +330,14 @@
 
 
 ### 实战测试
+
+#### 云服务
+
+- [从spring boot泄露到接管云服务器平台](https://mp.weixin.qq.com/s/IvM0I0xglEbMZzcbns7_5g)
+
+  > Huck Lim 合天网安实验室
+  >
+  > springboot 泄露 获取*明文内容
 
 #### 外网突破
 
@@ -248,6 +360,12 @@
 - [记一次对某非法站点从SQL注入到整站打包与本地搭建全过程](https://mp.weixin.qq.com/s/CvvBFltQYiXNBOz2D-E2kg)
 
   > GuoKer
+  
+- [phar反序列化在实战中的应用](https://mp.weixin.qq.com/s/d6KTQA0B1vVw8gG0MUNV9A)
+
+  > 听风安全
+  >
+  > Thinkphp 6 phar反序列化
 
 #### 内网渗透
 
@@ -263,7 +381,9 @@
 
   > 听风安全
 
+- [实战！牛！ || 红队攻防之从边界突破到漫游内网(无cs和msf)](https://mp.weixin.qq.com/s/FqG20Z546RgVeSWvKT4EMQ)
 
+  > 儒道易行
 
 #### 靶场/CTF WP
 
@@ -279,7 +399,13 @@
 
 - [CVE-2020-1622](https://darkless.cn/2022/04/19/spring-rce-1/)
 
+### 漏洞通告
 
+- [【复现】瑞友天翼应用虚拟化系统远程代码执行漏洞风险通告](https://mp.weixin.qq.com/s/m6uz1J8nvQotCWsTU7VPTA)
+
+  > 赛博昆仑CERT
+  >
+  > 瑞友天翼应用虚拟化系统远程代码执行漏洞
 
 ### 恶意木马分析
 
@@ -289,7 +415,7 @@
 
   > 安天
 
-### 总结展望
+### 重点洞察
 
 - [2022年安全架构总结以及2023安全方向展望](https://mp.weixin.qq.com/s/D0mETMfF4wu_a3dSXoxIiQ)
 
@@ -300,5 +426,13 @@
 - [欧盟网络安全局 2022 年度威胁报告]([欧盟网络安全局 2022 年度威胁报告 (qq.com)](https://mp.weixin.qq.com/s/UDbOlnLfsD4pk_3PQCuGBw))
 
   > 威胁棱镜
+
+- [嘶吼2023 Q1网络安全产业重点洞察](https://mp.weixin.qq.com/s/zFOPLTWfr2_-hbORa4qSdQ)
+
+  > 煎蛋棉花糖 嘶吼专业版
+
+  > 云安全 AI高性能检测 神经元模糊测试 多重因素身份认证
+
+  
 
   
