@@ -2,27 +2,40 @@
 
 
 
-- **论文推荐**
-  - **移动安全**
-- **云安全**
-- **AI安全**
-- **应急响应**
-- **Tips**
-- **工具**
-  - **代理**
-  - **代码审计工具**
-  - **漏洞利用工具**
-- **攻防技术**
-- **工控安全**
-- **漏洞挖掘**
-- **实战测试**
-  - **外网突破**
-  - **内网渗透**
-  - **外网加内网**
-  - **靶场/CTF WP**
-- **漏洞分析**
-- **恶意木马分析**
-- **总结展望**
+- [**论文推荐**](https://github.com/Mount4in/Security-Knowledge#%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90)
+  - [**神经网络模型后门**](https://github.com/Mount4in/Security-Knowledge#%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B%E5%90%8E%E9%97%A8)
+  - [**API安全**](https://github.com/Mount4in/Security-Knowledge#api%E5%AE%89%E5%85%A8)
+  - [**协议安全**](https://github.com/Mount4in/Security-Knowledge#%E5%8D%8F%E8%AE%AE%E5%AE%89%E5%85%A8)
+  - [**移动安全**](https://github.com/Mount4in/Security-Knowledge#%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8)
+  - [**智能充电桩**](https://github.com/Mount4in/Security-Knowledge#%E6%99%BA%E8%83%BD%E5%85%85%E7%94%B5%E6%A1%A9)
+- [**云安全**](https://github.com/Mount4in/Security-Knowledge#%E4%BA%91%E5%AE%89%E5%85%A8)
+- [**AI安全**](https://github.com/Mount4in/Security-Knowledge#ai%E5%AE%89%E5%85%A8)
+- [**应急响应**](https://github.com/Mount4in/Security-Knowledge#%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94)
+- [**Tips**](https://github.com/Mount4in/Security-Knowledge#tips)
+- [**工具**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E5%85%B7)
+  - [**代理**](https://github.com/Mount4in/Security-Knowledge#%E4%BB%A3%E7%90%86)
+  - [**代码审计工具**](https://github.com/Mount4in/Security-Knowledge#%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E5%B7%A5%E5%85%B7)
+  - [**漏洞利用工具**](https://github.com/Mount4in/Security-Knowledge#%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E5%B7%A5%E5%85%B7)
+  - [**工具高阶使用**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E5%85%B7%E9%AB%98%E9%98%B6%E4%BD%BF%E7%94%A8)
+  - [**工具插件**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E5%85%B7%E6%8F%92%E4%BB%B6)
+- [**攻防技术**](https://github.com/Mount4in/Security-Knowledge#%E6%94%BB%E9%98%B2%E6%8A%80%E6%9C%AF)
+  - [**内网凭据**](https://github.com/Mount4in/Security-Knowledge#%E5%86%85%E7%BD%91%E5%87%AD%E6%8D%AE)
+  - [**认证绕过**](https://github.com/Mount4in/Security-Knowledge#%E8%AE%A4%E8%AF%81%E7%BB%95%E8%BF%87)
+
+- [**工控安全**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E6%8E%A7%E5%AE%89%E5%85%A8)
+- [**漏洞挖掘**](https://github.com/Mount4in/Security-Knowledge#%E6%BC%8F%E6%B4%9E%E6%8C%96%E6%8E%98)
+- [**实战测试**](https://github.com/Mount4in/Security-Knowledge#%E5%AE%9E%E6%88%98%E6%B5%8B%E8%AF%95)
+  - [**云服务**](https://github.com/Mount4in/Security-Knowledge#%E4%BA%91%E6%9C%8D%E5%8A%A1)
+  - [**外网突破**](https://github.com/Mount4in/Security-Knowledge#%E5%A4%96%E7%BD%91%E7%AA%81%E7%A0%B4)
+  - [**内网渗透**](https://github.com/Mount4in/Security-Knowledge#%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F)
+  - [**外网加内网**](https://github.com/Mount4in/Security-Knowledge#%E5%A4%96%E7%BD%91%E5%8A%A0%E5%86%85%E7%BD%91)
+  - [**敏感数据获取**](https://github.com/Mount4in/Security-Knowledge#%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E8%8E%B7%E5%8F%96)
+  - [**靶场/CTF WP**](https://github.com/Mount4in/Security-Knowledge#%E9%9D%B6%E5%9C%BActf-wp)
+
+- [**漏洞分析**](https://github.com/Mount4in/Security-Knowledge#%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90)
+- [**漏洞通告**](https://github.com/Mount4in/Security-Knowledge#%E6%BC%8F%E6%B4%9E%E9%80%9A%E5%91%8A)
+- [**恶意木马分析**](https://github.com/Mount4in/Security-Knowledge#%E6%81%B6%E6%84%8F%E6%9C%A8%E9%A9%AC%E5%88%86%E6%9E%90)
+- [**重点洞察**](https://github.com/Mount4in/Security-Knowledge#%E9%87%8D%E7%82%B9%E6%B4%9E%E5%AF%9F)
 
 
 
@@ -121,6 +134,14 @@
   >
   > 测量和评估苹果APP隐私标签的不合规性
 
+#### 智能充电桩
+
+- [ChargePrint: A Framework for Internet-Scale Discovery and Security Analysis of EV Charging Management Systems](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s84_paper.pdf)
+
+  > NDSS2023
+  >
+  > 作者开发了一个名字叫做`ChargePrint`的框架，在互联网上首先去搜索EVCMS的存在。在网上找到了44个EVCMS之后，进一步分析（黑掉？）它们，然后发现了27439个在线的EVCS，同时提交（刷）了120个0-day漏洞，拿到了超过20个CVE！
+
 ### 云安全
 
 - [K8s组件和架构](https://mp.weixin.qq.com/s/xcXiTwzx9tRkpndARiMKuQ)
@@ -218,6 +239,22 @@
   > ffffffff0x
 
   > fofa、quake、zoomeye、shodan、huneter、chaos
+  
+- [【技术干货】UI 和 API 自动化测试神器 - Playwright](https://mp.weixin.qq.com/s/pKXUO_T57DdOEr4HfpkE7w)
+
+  > 星阑科技 *2023-02-21*
+  >
+  > Playwright
+
+- [冲了！自动化批量挖SRC漏洞！](https://mp.weixin.qq.com/s/kgf9gc6_xA0ADhri2-LChQ)
+
+  > Hack分享吧 *2023-02-20*
+  >
+  > Rad Burp Xray 联动
+
+- [GitHub监控和信息收集工具](https://mp.weixin.qq.com/s/uKcSD7LFXPgVoaxj8wP2gQ)
+
+  > NHPT 潇湘信安 *2023-02-18*
 
 #### 漏洞利用工具
 
@@ -234,8 +271,14 @@
 - [如何更加专业地使用 Burp Suite！](https://mp.weixin.qq.com/s/9jESl-gpP-MQJV5GDcXgfQ)
 
   >  骨哥说事
+
+#### 工具插件
+
+- [tql！自动化bypass的burpsuite插件](https://mp.weixin.qq.com/s/RPQUT5S82FO1n6DpbGfO-A)
+
+  > 0x727 Hack分享吧 *2023-04-16*
   >
-  > 
+  > Burp 插件 好像针对302跳转的
 
 ### 攻防技术
 
@@ -255,15 +298,19 @@
   >
   > 绕过认证的五种方式
   >
-  > 令牌刷新端的错误配置
+  > - 令牌刷新端的错误配置
   >
-  > 错误的sso配置
   >
-  > CMS个例的访问问题
+  > - 错误的sso配置
   >
-  > JWT Token的错误解析
   >
-  > 暴力修改Authentication
+  > - CMS个例的访问问题
+  >
+  >
+  > - JWT Token的错误解析
+  >
+  >
+  > - 暴力修改Authentication
 
 - [2023钓鱼攻击思路整理](https://mp.weixin.qq.com/s/mnuus-XBBK5gspAAIBeIPg)
 
@@ -338,6 +385,12 @@
   > Huck Lim 合天网安实验室
   >
   > springboot 泄露 获取*明文内容
+  
+- [实战阿里云OSS云攻防](https://mp.weixin.qq.com/s/7RO3AB-wg1vc-YZfCOHx3w)
+
+  > 听风安全 *2023-02-12*
+  >
+  > 云存储文件覆盖，key泄漏，云存储配置错误
 
 #### 外网突破
 
@@ -366,6 +419,12 @@
   > 听风安全
   >
   > Thinkphp 6 phar反序列化
+  
+- [实战 | 一次js到SQL到接口Getshell](https://mp.weixin.qq.com/s/diyiRoqX8T7duCxLVifypQ)
+
+  > 华强 HACK学习呀 *2023-03-13*
+  >
+  > js获取接口参数，测出sql注入，后续getshell
 
 #### 内网渗透
 
@@ -384,6 +443,34 @@
 - [实战！牛！ || 红队攻防之从边界突破到漫游内网(无cs和msf)](https://mp.weixin.qq.com/s/FqG20Z546RgVeSWvKT4EMQ)
 
   > 儒道易行
+  
+- [实战 | 记一次从登录框到内网横向](https://mp.weixin.qq.com/s/qxMkmUMTNgV2it2ikuGKAA)
+
+  > 星海安全实验室 潇湘信安 *2023-02-16*
+  >
+  > 登录框 mssql 布尔盲注 RCE
+
+#### 敏感数据获取
+
+- [实战|记录一次通过不断FUZZ从而获取万元赏金](https://mp.weixin.qq.com/s/g8oPRHCccUg-BVt_rZs3jw)
+
+  > 网络安全之旅
+
+  > H5站点 Fuzz测试
+  >
+  > js文件中获取敏感接口，配合爆破口令返回大量用户订单信息
+
+- [Parameter is null引发的一次五千漏洞赏金记录](https://mp.weixin.qq.com/s/TH7arqJ3JbifZXXcp9k7og)
+
+  > 小乳酸 网络安全之旅
+  >
+  > 实战测试 js寻找参数，获取大量敏感信息
+
+- [针对某集团的一次渗透测试](https://mp.weixin.qq.com/s/2Z_4sBL9wN5T7fqzt0ftYQ)
+
+  > 苏雅图 潇湘信安 *2023-03-02*
+  >
+  > 枚举工号 爆破密码 获取后台信息
 
 #### 靶场/CTF WP
 
@@ -394,6 +481,10 @@
 - [ByteCTF2022 mobile系列](https://mp.weixin.qq.com/s/cmrx9jZkmzaInSEoT3eHZg)
 
   > e*16 a
+  
+- [ATT&CK实战系列——红队实战（三）](https://mp.weixin.qq.com/s/MnOHfPfkD-U5n9k6gi9tsQ)
+
+  > 鸿鹄实验室 *2023-04-15*
 
 ### 漏洞分析
 
