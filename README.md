@@ -112,7 +112,7 @@
   >
   > https://mp.weixin.qq.com/s/AywZm5A2v7ivxTumZnn7uQ
 
-#### 协议
+#### 协议安全
 
 - [QUICforge: Client-side Request Forgery in QUlC](https://mp.weixin.qq.com/s/xW23ntLHjxLJprrwmrAGjw)
 
@@ -120,7 +120,7 @@
   >
   > 针对 QUIC（Quick UDP Internet Connection）协议发起客户端请求伪造攻击
 
-#### 移动安全（Mobile security）
+#### 移动安全
 
 - [Post-GDPR Threat Hunting on Android Phones: Dissecting OS-level Safeguards of User-unresettable Identifiers](https://mp.weixin.qq.com/s/2W6aMvoIQk2cru_5Lzbxdg)
 
