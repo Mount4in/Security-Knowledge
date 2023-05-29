@@ -13,11 +13,13 @@
 - [**应急响应**](https://github.com/Mount4in/Security-Knowledge#%E5%BA%94%E6%80%A5%E5%93%8D%E5%BA%94)
 - [**Tips**](https://github.com/Mount4in/Security-Knowledge#tips)
 - [**工具**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E5%85%B7)
+  - [**扫描**](https://github.com/Mount4in/Security-Knowledge#%E6%89%AB%E6%8F%8F)
   - [**代理**](https://github.com/Mount4in/Security-Knowledge#%E4%BB%A3%E7%90%86)
   - [**代码审计工具**](https://github.com/Mount4in/Security-Knowledge#%E4%BB%A3%E7%A0%81%E5%AE%A1%E8%AE%A1%E5%B7%A5%E5%85%B7)
   - [**漏洞利用工具**](https://github.com/Mount4in/Security-Knowledge#%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E5%B7%A5%E5%85%B7)
   - [**工具高阶使用**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E5%85%B7%E9%AB%98%E9%98%B6%E4%BD%BF%E7%94%A8)
   - [**工具插件**](https://github.com/Mount4in/Security-Knowledge#%E5%B7%A5%E5%85%B7%E6%8F%92%E4%BB%B6)
+
 - [**攻防技术**](https://github.com/Mount4in/Security-Knowledge#%E6%94%BB%E9%98%B2%E6%8A%80%E6%9C%AF)
   - [**内网凭据**](https://github.com/Mount4in/Security-Knowledge#%E5%86%85%E7%BD%91%E5%87%AD%E6%8D%AE)
   - [**认证绕过**](https://github.com/Mount4in/Security-Knowledge#%E8%AE%A4%E8%AF%81%E7%BB%95%E8%BF%87)
@@ -197,6 +199,12 @@
   > 试下这个网站[匿名代理追踪真实ip (hackjie.com)](https://www.hackjie.com/tracking')
 
 ### 工具
+
+#### 扫描
+
+- [xpoc](https://github.com/chaitin/xpoc)
+
+  > chaitin 为供应链漏洞扫描设计的快速应急响应工具 [快速应急] [漏洞扫描] [端口扫描] [xray2.0进行时] A fast emergency response tool designed for supply chain vulnerability scanning.
 
 #### 代理
 
@@ -471,6 +479,12 @@
   > 苏雅图 潇湘信安 *2023-03-02*
   >
   > 枚举工号 爆破密码 获取后台信息
+  
+- [渗透实战|记一次曲折的EDU通杀漏洞挖掘](https://mp.weixin.qq.com/s/v641Qkfw9mknSZSDDl_q_g)
+
+  > [听风安全](javascript:void(0);) 2023-05-29 14:33
+  >
+  > springboot actuator敏感信息泄露
 
 #### 靶场/CTF WP
 
