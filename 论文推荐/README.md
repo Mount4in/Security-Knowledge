@@ -93,6 +93,16 @@
   >
   > 测量和评估苹果APP隐私标签的不合规性
 
+#### 模糊测试
+
+- https://mp.weixin.qq.com/s/suEY9ZqQOs_RzgFGR9RnIg
+
+  > 柳蓉 [安全学术圈] 2023USENIX
+  >
+  > 适用于多语言
+  >
+  > 回归模型
+
 #### 智能充电桩
 
 - [ChargePrint: A Framework for Internet-Scale Discovery and Security Analysis of EV Charging Management Systems](https://www.ndss-symposium.org/wp-content/uploads/2023/02/ndss2023_s84_paper.pdf)

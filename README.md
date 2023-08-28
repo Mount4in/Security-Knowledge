@@ -7,6 +7,7 @@
   - [**API安全**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90#api%E5%AE%89%E5%85%A8)
   - [**协议安全**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90#%E5%8D%8F%E8%AE%AE%E5%AE%89%E5%85%A8)
   - [**移动安全**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90#%E7%A7%BB%E5%8A%A8%E5%AE%89%E5%85%A8)
+  - [**模糊测试**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90#模糊测试)
   - [**智能充电桩**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E8%AE%BA%E6%96%87%E6%8E%A8%E8%8D%90#%E6%99%BA%E8%83%BD%E5%85%85%E7%94%B5%E6%A1%A9)
 - [**云安全**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E4%BA%91%E5%AE%89%E5%85%A8)
 - [**AI安全**](https://github.com/Mount4in/Security-Knowledge/tree/main/ai%E5%AE%89%E5%85%A8)
@@ -38,5 +39,4 @@
 - [**漏洞通告**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E6%BC%8F%E6%B4%9E%E9%80%9A%E5%91%8A)
 - [**恶意木马分析**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E6%81%B6%E6%84%8F%E6%9C%A8%E9%A9%AC%E5%88%86%E6%9E%90)
 - [**重点洞察**](https://github.com/Mount4in/Security-Knowledge/tree/main/%E9%87%8D%E7%82%B9%E6%B4%9E%E5%AF%9F)
-
 
